@@ -62,6 +62,6 @@ fs.readFile(__dirname + '/public/content/data/'+n+'.txt', 'utf8' , (err, data) =
 })
 })
 			});
-		app.listen(3000, function(){
+		app.listen(3001, function(){
 			console.log("Go cinesra");
 			});
